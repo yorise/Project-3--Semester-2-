@@ -32,17 +32,17 @@ section.hero .content .tombol {
   justify-content: space-between;
 }
 
-.content .tombol a {
+section.hero .content .tombol a {
   width: 100%;
   text-align: center;
   border-radius: 1rem;
   text-decoration: none;
-  font-size: 1rem;
+  font-size: 1.3rem;
   font-weight: 600;
   padding: 1.5rem 0;
 }
 
-.content .tombol a:nth-child(1) {
+section.hero .content .tombol a:nth-child(1) {
   background-image: linear-gradient(
     to right,
     var(--DarkGreen),
@@ -52,9 +52,108 @@ section.hero .content .tombol {
   margin-right: 2rem;
 }
 
-.content .tombol a:nth-child(2) {
+section.hero .content .tombol a:nth-child(2) {
   border: 2px solid var(--PastelGreen);
   color: var(--DarkGreen);
 }
 
 /* hero section end */
+
+/* visi misi section start */
+
+/* info */
+
+section.visi-misi .info {
+  display: flex;
+  justify-content: space-around;
+  background-color: var(--DarkGreen);
+  padding: 3.5rem;
+  color: white;
+}
+
+section.visi-misi .info .line {
+  height: 5.4rem;
+  width: 2px;
+  background-color: white;
+  margin: 0 3rem;
+}
+
+section.visi-misi .info .status {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+section.visi-misi .info .status p {
+  font-weight: 600;
+  font-size: 5.4rem;
+}
+
+section.visi-misi .info .status span {
+  font-size: 1.1rem;
+  line-height: 1.8;
+}
+/* info */
+
+section.visi-misi div.visi-misi {
+  display: flex;
+  justify-content: space-between;
+  gap: 5rem;
+  margin: 4rem 7rem;
+}
+
+section.visi-misi div.visi-misi .content {
+  text-align: justify;
+  width: 80%;
+  color: var(--DarkGreen);
+}
+
+section.visi-misi div.visi-misi .content h1 {
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+}
+
+section.visi-misi div.visi-misi .content p {
+  font-size: 1.3rem;
+  line-height: 2;
+}
+
+section.visi-misi div.visi-misi .box {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2.2rem;
+}
+
+section.visi-misi div.visi-misi .box div {
+  width: 17rem;
+  height: 10.5rem;
+  text-align: center;
+  padding: 1.5rem 1rem;
+}
+
+section.visi-misi div.visi-misi .box div span {
+  font-size: 1.5rem;
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+section.visi-misi div.visi-misi .box div p {
+  margin-top: 1rem;
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
+
+section.visi-misi div.visi-misi .box div.kualitas,
+section.visi-misi div.visi-misi .box div.kepuasan {
+  background-color: var(--IvoryYellow);
+  color: var(--DarkGreen);
+}
+
+section.visi-misi div.visi-misi .box div.pengembangan,
+section.visi-misi div.visi-misi .box div.keberlanjutan {
+  background-color: var(--PastelGreen);
+  color: white;
+}
+
+/* visi misi section end */
