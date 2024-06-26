@@ -1,0 +1,13 @@
+:root {
+  --VeryDarkBlack: #040316;
+  --DarkGreen: #0a6646;
+  --PastelGreen: #7eba78;
+  --GoldenYellow: #f3cb53;
+  --IvoryYellow: #f6e9b1;
+  --background: #eaf3e9;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: var(--background);
+}
