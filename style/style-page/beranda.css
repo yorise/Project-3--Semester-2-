@@ -161,7 +161,8 @@ section.visi-misi div.visi-misi .box div.keberlanjutan {
 /* kelebihan section start */
 
 section.value {
-  position: relative;
+  position: relative; /* relative dengan card panggil dan section penjelasan (jadi sebisa mungkin tidak berbeda jauh) */
+  overflow-x: hidden;
 }
 
 section.value h1 {
@@ -176,14 +177,13 @@ section.value h1 {
 }
 
 section.value .slider {
-  position: relative;
-  overflow: hidden;
+  position: absolute;
 }
 
 section.value .list {
   display: flex;
   width: calc(480px * 14);
-  gap: 3rem;
+  gap: 2rem;
   margin: 3rem 0;
   perspective: 500px;
   animation: scroll 20s linear infinite;
@@ -279,15 +279,293 @@ section.value .slider .list div.pengembangan {
 
 /* kelebihan section end */
 
-.panggil {
-  position: absolute;
-  top: 60%;
+/* call action start */
+
+section.value .panggil {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 11rem; /* relative dengan card panggil dan section penjelasan (jadi sebisa mungkin tidak berbeda jauh) */
+  height: 40rem;
   width: 100%;
-  height: 500px;
-  background-image: linear-gradient(
-    to right,
-    var(--DarkGreen),
-    var(--PastelGreen)
+  flex-shrink: 0;
+  background: var(
+    --Gradien-Green,
+    linear-gradient(93deg, #0a6646 -15.17%, rgba(20, 204, 140, 0.8) 119.46%)
   );
   z-index: -1;
 }
+
+section.value .panggil img {
+  position: absolute;
+  left: 0;
+  height: 100%;
+  width: 45%; /* widht samakan dengan image yang di background */
+  opacity: 0.4;
+  background-color: rgba(255, 221, 62, 0.5);
+  border-radius: 0 5rem 5rem 0;
+}
+
+section.value .panggil .register {
+  width: 45%; /* widht samakan dengan image yang di background */
+  text-align: center;
+  z-index: 1;
+}
+
+section.value .panggil .register h2 {
+  color: white;
+  font-size: 2.4rem;
+  font-weight: 700;
+  line-height: 50px; /* 119.048% */
+  margin-bottom: 5rem;
+}
+
+section.value .panggil .register h2 span {
+  color: var(--GoldenYellow);
+}
+
+section.value .panggil .register a {
+  color: white;
+  font-size: 1.3rem;
+  font-weight: 500;
+  background: linear-gradient(90deg, #ffe43e 0%, #ffbc41 100%);
+  padding: 1rem 6rem;
+  border-radius: 0.5rem;
+}
+
+section.value .panggil .layanan {
+  width: 45%;
+  color: white;
+}
+
+section.value .panggil .layanan h3 {
+  font-size: 2.3rem;
+  font-weight: 700;
+  line-height: 2.3; /* 119.048% */
+  letter-spacing: 0.21px;
+}
+
+section.value .panggil .layanan ul {
+  list-style-type: disc;
+  line-height: 2;
+  font-size: 1.5rem;
+}
+
+/* call action end */
+
+/* penjelasan section start */
+
+section.penjelasan {
+  display: flex;
+  padding: 4rem;
+  color: var(--VeryDarkBlack);
+}
+
+section.penjelasan .content {
+  padding: 0 4rem;
+}
+
+section.penjelasan .content h1 {
+  text-align: center;
+  font-size: 2.3rem;
+  font-weight: 700;
+  line-height: 4; /* 119.048% */
+  letter-spacing: 0.21px;
+}
+section.penjelasan .content h1 span {
+  color: var(--DarkGreen);
+}
+
+section.penjelasan .content p {
+  text-align: justify;
+  font-size: 1.3rem;
+  font-weight: 400;
+  line-height: 2;
+  letter-spacing: 0.13px;
+}
+
+/* penjelasan section end */
+
+/* alamat section start */
+
+section.alamat {
+  display: flex;
+  justify-content: space-around;
+  padding: 4rem;
+  gap: 2rem;
+  background: var(
+    --Gradien-Green,
+    linear-gradient(93deg, #0a6646 -15.17%, rgba(20, 204, 140, 0.8) 119.46%)
+  );
+  color: white;
+}
+
+section.alamat .detail {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+section.alamat .detail div {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+section.alamat .detail div img {
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  background-color: var(--PastelGreen);
+  padding: 0.7rem;
+  box-sizing: border-box;
+}
+
+section.alamat .detail div .info {
+  display: block;
+  width: 60%;
+}
+
+section.alamat .detail div .info span {
+  font-size: 1.8rem;
+  font-weight: 600;
+  line-height: 50px; /* 166.667% */
+  letter-spacing: 0.15px;
+}
+
+section.alamat .detail div .info p {
+  font-size: 1.3rem;
+  font-weight: 400;
+  line-height: 50px; /* 192.308% */
+  letter-spacing: 0.13px;
+}
+
+/* alamat section end */
+
+/* testimoni section start */
+
+section.testimoni {
+  height: 60vh;
+  padding: 5rem 0;
+  color: var(--VeryDarkBlack);
+}
+
+section.testimoni p:nth-child(1) {
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 50px; /* 192.308% */
+  letter-spacing: 0.13px;
+}
+
+section.testimoni span {
+  position: relative;
+  text-align: center;
+  font-size: 2.4rem;
+  font-weight: 700;
+  line-height: 50px; /* 119.048% */
+  letter-spacing: 0.21px;
+}
+
+section.testimoni span::before {
+  content: "";
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  width: 95%;
+  height: 60%;
+  background-color: #dff556;
+  transform: translate(-50%, -50%) scale(1.1);
+  z-index: -1; /* Menempatkan pseudo-elemen di belakang konten */
+}
+
+/* review testimoni */
+
+section.testimoni .content {
+  position: relative;
+  display: flex;
+  gap: 7rem;
+  margin: 3rem auto;
+  background-color: var(--PastelGreen);
+  width: 60%;
+  padding: 3rem 5rem;
+  color: white;
+}
+
+section.testimoni .content img.kutip {
+  position: absolute;
+  top: -9%;
+  width: 4rem;
+  height: 4rem;
+  background-color: white;
+  border-radius: 50%;
+}
+
+section.testimoni .content p.review {
+  text-align: justify;
+  width: 65%;
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 30px; /* 150% */
+  letter-spacing: 0.1px;
+}
+section.testimoni .content .profile p {
+  font-size: 1.2rem;
+  text-align: center;
+  line-height: 2;
+}
+
+section.testimoni .content .profile p:nth-child(2) {
+  font-weight: 600;
+}
+
+/* review testimoni */
+
+/* testimoni section end */
+
+/* footer section start */
+
+footer {
+  position: relative;
+  display: flex;
+  justify-content: space-evenly;
+  color: white;
+  overflow: hidden;
+}
+
+footer img.footer-bg {
+  position: absolute;
+  width: 100%;
+  z-index: -1;
+}
+
+footer div {
+  text-align: center;
+  width: 50%;
+  margin: 8rem 10rem;
+}
+
+footer .alamat p {
+  text-align: justify;
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 50px; /* 192.308% */
+  letter-spacing: 0.13px;
+}
+
+footer .syarat-kebijakan p {
+  font-size: 2.5rem;
+  font-weight: 600;
+  line-height: 4; /* 192.308% */
+  letter-spacing: 0.13px;
+  text-transform: uppercase;
+}
+
+footer .syarat-kebijakan a {
+  color: #bababa;
+  line-height: 2;
+  font-size: 1.5rem;
+}
+/* footer section end */
