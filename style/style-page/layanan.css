@@ -1,0 +1,156 @@
+/* info section start */
+
+section.info {
+  position: relative;
+  margin: 10rem 7rem;
+}
+
+section.info img {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+section.info h1 {
+  color: var(--DarkGreen);
+  font-size: 2.7rem;
+  font-weight: 600;
+  line-height: 70px; /* 148.936% */
+  letter-spacing: 0.235px;
+  text-transform: uppercase;
+}
+
+section.info .content {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 5rem 0;
+}
+
+section.info .content .detail {
+  width: 40%;
+  height: 15rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  border-radius: 0.5rem;
+}
+
+section.info .content .detail:nth-child(1) {
+  background: linear-gradient(
+    0deg,
+    #0a6646 -23.72%,
+    rgba(255, 255, 255, 0.2) 103.72%
+  );
+  z-index: 2;
+}
+
+section.info .content .detail:nth-child(2) {
+  border: 1px solid var(--buttons-secondary, #f6e9b1);
+  background: linear-gradient(
+    0deg,
+    #ffbc41 -23.72%,
+    rgba(255, 255, 255, 0.2) 103.72%
+  );
+  z-index: 2;
+}
+
+section.info .content .detail span {
+  color: white;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 40px; /* 133.333% */
+  letter-spacing: 0.15px;
+  padding: 0 1rem;
+}
+
+section.info .content .detail a.jasa {
+  color: white;
+  font-size: 1.2rem;
+  font-weight: 400;
+  letter-spacing: 0.1px;
+  background-color: var(--DarkGreen);
+  padding: 1rem;
+  border-radius: 0 0 0.5rem 0.5rem;
+}
+
+section.info .content .detail a.lamar {
+  color: white;
+  font-size: 1.2rem;
+  font-weight: 400;
+  letter-spacing: 0.1px;
+  background-color: rgba(243, 203, 83, 1);
+  padding: 1rem;
+  border-radius: 0 0 0.5rem 0.5rem;
+}
+
+/* info section end */
+
+/* footer section start */
+
+footer {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  flex-wrap: wrap;
+  padding-top: 2rem;
+  z-index: 2;
+}
+
+footer img.footer-bg {
+  position: absolute;
+  width: 100%;
+  z-index: -1;
+}
+
+footer div {
+  padding-top: 10rem;
+  text-align: center;
+  margin: 8rem 10rem;
+}
+
+footer .alamat,
+footer .syarat-kebijakan,
+footer .sosial-media {
+  border-radius: 8px;
+  padding: 20px;
+  margin: 10px;
+  flex: 1 1 45%;
+  max-width: 45%;
+}
+footer .alamat p {
+  text-align: justify;
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 50px; /* 192.308% */
+  letter-spacing: 0.13px;
+  margin: 0 10rem;
+}
+
+footer .syarat-kebijakan p {
+  font-size: 2.5rem;
+  font-weight: 600;
+  line-height: 4; /* 192.308% */
+  letter-spacing: 0.13px;
+  text-transform: uppercase;
+}
+
+footer .syarat-kebijakan a {
+  color: #bababa;
+  line-height: 2;
+  font-size: 1.5rem;
+}
+
+footer .sosial-media span {
+  font-size: 2rem;
+  line-height: 3; /* 192.308% */
+  letter-spacing: 0.13px;
+}
+
+footer .sosial-media ul {
+  display: flex;
+  justify-content: space-evenly;
+}
+/* footer section end */
