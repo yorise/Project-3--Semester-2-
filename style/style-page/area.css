@@ -72,6 +72,11 @@ section.alamat {
     linear-gradient(93deg, #0a6646 -15.17%, rgba(20, 204, 140, 0.8) 119.46%)
   );
   color: white;
+  margin-bottom: 9rem;
+}
+
+section.alamat img:nth-child(1) {
+  border-radius: 1rem;
 }
 
 section.alamat .detail {
