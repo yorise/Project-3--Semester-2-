@@ -1,0 +1,68 @@
+/* hero section start */
+
+section.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100vh;
+  margin: 0 7rem;
+  color: var(--DarkGreen);
+}
+
+section.hero .content {
+  width: 45%;
+}
+
+section.hero .content img:nth-child(1) {
+  position: absolute;
+  top: 18%;
+  left: 0;
+  z-index: -1;
+}
+
+section.hero .content h1 {
+  font-size: 2.7rem;
+  font-weight: 600;
+  line-height: 1.4;
+  letter-spacing: 0.235px;
+}
+
+section.hero .content p {
+  font-size: 1.3rem;
+  font-weight: 400;
+  line-height: 2; /* 187.5% */
+  letter-spacing: 0.12px;
+}
+
+section.hero .content .tombol {
+  display: flex;
+  gap: 3rem;
+}
+
+section.hero .content .tombol a {
+  margin-top: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 15rem;
+  height: 4rem;
+  box-sizing: border-box;
+  font-size: 1.2rem;
+  font-weight: 600;
+  border-radius: 0.7rem;
+}
+
+section.hero .content .tombol a:nth-child(1) {
+  color: white;
+  background: var(
+    --Gradien-Green,
+    linear-gradient(93deg, #0a6646 -15.17%, rgba(20, 204, 140, 0.8) 119.46%)
+  );
+}
+
+section.hero .content .tombol a:nth-child(2) {
+  color: var(--DarkGreen);
+  border: 1px solid var(--Gradien-Green, #0a6646);
+}
+
+/* hero section end */
