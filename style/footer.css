@@ -1,0 +1,68 @@
+/* footer section start */
+
+footer {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  flex-wrap: wrap;
+  padding-top: 2rem;
+  z-index: 2;
+}
+
+footer img.footer-bg {
+  position: absolute;
+  width: 100%;
+  z-index: -1;
+}
+
+footer div {
+  padding-top: 10rem;
+  text-align: center;
+  margin: 8rem 10rem;
+}
+
+footer .alamat,
+footer .syarat-kebijakan,
+footer .sosial-media {
+  border-radius: 8px;
+  padding: 20px;
+  margin: 10px;
+  flex: 1 1 45%;
+  max-width: 45%;
+}
+footer .alamat p {
+  text-align: justify;
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 50px; /* 192.308% */
+  letter-spacing: 0.13px;
+  margin: 0 10rem;
+}
+
+footer .syarat-kebijakan p {
+  font-size: 2.5rem;
+  font-weight: 600;
+  line-height: 4; /* 192.308% */
+  letter-spacing: 0.13px;
+  text-transform: uppercase;
+}
+
+footer .syarat-kebijakan a {
+  color: #bababa;
+  line-height: 2;
+  font-size: 1.5rem;
+}
+
+footer .sosial-media span {
+  font-size: 2rem;
+  line-height: 3; /* 192.308% */
+  letter-spacing: 0.13px;
+}
+
+footer .sosial-media ul {
+  display: flex;
+  justify-content: space-evenly;
+}
+/* footer section end */
