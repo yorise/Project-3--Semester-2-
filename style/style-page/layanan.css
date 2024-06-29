@@ -1,87 +1,91 @@
-/* info section start */
+/**
+ * info section start
+ *
+ * @format
+ */
 
 section.info {
-  position: relative;
-  margin: 10rem 7rem;
+	position: relative;
+	margin: 10rem 7rem;
 }
 
 section.info img {
-  position: absolute;
-  top: 0;
-  right: 0;
+	position: absolute;
+	top: 0;
+	right: 0;
 }
 
 section.info h1 {
-  color: var(--DarkGreen);
-  font-size: 2.7rem;
-  font-weight: 600;
-  line-height: 70px; /* 148.936% */
-  letter-spacing: 0.235px;
-  text-transform: uppercase;
+	color: var(--DarkGreen);
+	font-size: 2.7rem;
+	font-weight: 600;
+	line-height: 70px; /* 148.936% */
+	letter-spacing: 0.235px;
+	text-transform: uppercase;
 }
 
 section.info .content {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  margin: 5rem 0;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	margin: 5rem 0;
 }
 
 section.info .content .detail {
-  width: 40%;
-  height: 15rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: end;
-  border-radius: 0.5rem;
+	width: 40%;
+	height: 15rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: end;
+	border-radius: 0.5rem;
 }
 
 section.info .content .detail:nth-child(1) {
-  background: linear-gradient(
-    0deg,
-    #0a6646 -23.72%,
-    rgba(255, 255, 255, 0.2) 103.72%
-  );
-  z-index: 2;
+	background: linear-gradient(
+		0deg,
+		#0a6646 -23.72%,
+		rgba(255, 255, 255, 0.2) 103.72%
+	);
+	z-index: 2;
 }
 
 section.info .content .detail:nth-child(2) {
-  border: 1px solid var(--buttons-secondary, #f6e9b1);
-  background: linear-gradient(
-    0deg,
-    #ffbc41 -23.72%,
-    rgba(255, 255, 255, 0.2) 103.72%
-  );
-  z-index: 2;
+	border: 1px solid var(--buttons-secondary, #f6e9b1);
+	background: linear-gradient(
+		0deg,
+		#ffbc41 -23.72%,
+		rgba(255, 255, 255, 0.2) 103.72%
+	);
+	z-index: 2;
 }
 
 section.info .content .detail span {
-  color: white;
-  font-size: 30px;
-  font-weight: 600;
-  line-height: 40px; /* 133.333% */
-  letter-spacing: 0.15px;
-  padding: 0 1rem;
+	color: white;
+	font-size: 30px;
+	font-weight: 600;
+	line-height: 40px; /* 133.333% */
+	letter-spacing: 0.15px;
+	padding: 0 1rem;
 }
 
 section.info .content .detail a.jasa {
-  color: white;
-  font-size: 1.2rem;
-  font-weight: 400;
-  letter-spacing: 0.1px;
-  background-color: var(--DarkGreen);
-  padding: 1rem;
-  border-radius: 0 0 0.5rem 0.5rem;
+	color: white;
+	font-size: 1.2rem;
+	font-weight: 400;
+	letter-spacing: 0.1px;
+	background-color: var(--DarkGreen);
+	padding: 1rem;
+	border-radius: 0 0 0.5rem 0.5rem;
 }
 
 section.info .content .detail a.lamar {
-  color: white;
-  font-size: 1.2rem;
-  font-weight: 400;
-  letter-spacing: 0.1px;
-  background-color: rgba(243, 203, 83, 1);
-  padding: 1rem;
-  border-radius: 0 0 0.5rem 0.5rem;
+	color: white;
+	font-size: 1.2rem;
+	font-weight: 400;
+	letter-spacing: 0.1px;
+	background-color: rgba(243, 203, 83, 1);
+	padding: 1rem;
+	border-radius: 0 0 0.5rem 0.5rem;
 }
 
 /* info section end */

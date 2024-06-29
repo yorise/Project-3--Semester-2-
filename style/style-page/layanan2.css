@@ -1,0 +1,283 @@
+/** @format */
+
+* {
+	background-color: var(--DarkGreen);
+	font-family: "Poppins", sans-serif;
+}
+
+nav .nav-list a {
+	color: #eaf3e9;
+}
+
+section.top-layanan2 {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	height: 100vh;
+	margin: 0 7rem;
+}
+
+section.top-layanan2 h1 {
+	color: #eaf3e9;
+	font-size: 2.7rem;
+	font-weight: 600;
+	line-height: 70px;
+	letter-spacing: 0.235px;
+	text-transform: uppercase;
+}
+
+section.top-layanan2 p {
+	font-size: 1.5rem;
+	line-height: 2.2;
+	margin: 2rem 0 3rem;
+	width: 85%;
+	color: #eaf3e9;
+}
+
+section .top-layanan2 .tombol {
+	width: 100%;
+	text-align: center;
+	border-radius: 1rem;
+	text-decoration: none;
+	font-size: 1.3rem;
+	font-weight: 600;
+	padding: 1.5rem 0;
+}
+
+section.top-layanan2 .tombol a {
+	width: 100%;
+	text-align: center;
+	border-radius: 1rem;
+	text-decoration: none;
+	font-size: 1.3rem;
+	font-weight: 600;
+	padding: 1.5rem 1.5rem;
+	background: #7eba78;
+	color: white;
+	margin-right: 2rem;
+}
+
+section.pencapaian {
+	background-color: #eaf3e9;
+	width: 1480px;
+	height: 290px;
+	flex-shrink: 0;
+	border-radius: 10px;
+	box-shadow: -66px -238px 69px 0px rgba(255, 255, 255, 0),
+		-42px -152px 63px 0px rgba(255, 255, 255, 0.01),
+		-24px -86px 53px 0px rgba(255, 255, 255, 0.05),
+		-10px -38px 39px 0px rgba(255, 255, 255, 0.09),
+		-3px -10px 22px 0px rgba(255, 255, 255, 0.1);
+	margin: 20px auto;
+	padding: 20px;
+	display: flex;
+}
+
+.info {
+	width: 400px;
+	height: 200px;
+	background-color: #eaf3e9;
+}
+
+.status {
+	width: 250px;
+	height: 50px;
+	background-color: #eaf3e9;
+	display: flex;
+	align-items: center;
+	margin: 50px 40px;
+}
+
+.judul p {
+	background-color: #eaf3e9;
+	color: #040316;
+	font-size: 30px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: 40px; /* 133.333% */
+	letter-spacing: 0.15px;
+	text-transform: uppercase;
+	padding: 94px 50px;
+}
+
+.line {
+	background-color: #eaf3e9;
+	display: flex;
+	justify-content: center;
+	margin: 0px 0;
+}
+
+.line span {
+	background-color: #eaf3e9;
+	color: #040316;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: 30px; /* 133.333% */
+	letter-spacing: 0.15px;
+	text-transform: uppercase;
+	padding: 0;
+}
+
+.status {
+	background-color: #eaf3e9;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+}
+
+.status p {
+	background-color: #eaf3e9;
+	font-size: 40px;
+	font-weight: bold;
+	color: #f3cb53;
+	padding: 94px 50px 10px;
+}
+
+section.manajemen {
+	display: flex;
+	justify-content: space-around; /* Mengatur jarak antara elemen anak */
+	align-items: center; /* Menyelaraskan elemen anak secara vertikal */
+	box-sizing: border-box;
+}
+
+.manajemen img {
+	width: 600px;
+	height: 400px;
+	flex-shrink: 0;
+	margin: 5rem 5rem 5rem 1rem;
+	position: absolute;
+	left: 9em;
+	border-radius: 10px;
+}
+
+.tulisan h1 {
+	width: 527px;
+	height: 40px;
+	flex-shrink: 0;
+	color: #fff;
+	font-size: 50px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 50px; /* 100% */
+	letter-spacing: 0.25px;
+	text-transform: capitalize;
+	position: absolute;
+	left: 16em;
+	top: 28em;
+}
+
+.tulisan p {
+	background-color: #eaf3e9;
+	width: 700px;
+	height: 150px;
+	flex-shrink: 0;
+	border-radius: 20px;
+	background: #eaf3e9;
+}
+
+.tulisan p {
+	color: #000;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 40px; /* 200% */
+	letter-spacing: 0.1px;
+	text-transform: capitalize;
+	padding: 20px 20px 20px 20px;
+}
+
+.tulisan p {
+	position: absolute;
+	left: 36em;
+	top: 79em;
+}
+.para h1 {
+	position: absolute;
+	top: 40em;
+	left: 12em;
+	color: #fff;
+	font-size: 50px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 40px; /* 100% */
+	letter-spacing: 0.25px;
+	text-transform: capitalize;
+}
+
+.garis {
+	width: 192.938px;
+	height: 3px;
+	background: #f6e9b1;
+	position: absolute;
+	top: 130em;
+	left: 50em;
+}
+
+.content-table {
+	position: relative;
+	top: 62em;
+	left: 27em;
+}
+
+.content-table {
+	border-collapse: collapse;
+	margin: 25px 0;
+	font-size: 0.9em;
+	min-width: 1200px;
+	border: 1px solid;
+	border-radius: 5px 5px 0 0;
+	overflow: hidden;
+}
+
+.content-table thead tr {
+	border: 1px solid #f3cb53;
+	text-align: left;
+}
+
+.content-table thead th {
+	font-weight: bold;
+	background-color: #f6e9b1;
+	color: #040316;
+}
+
+.content-table th,
+.content-table td {
+	padding: 12px 15px;
+	background-color: #f6e9b1;
+	color: #040316;
+}
+
+.content-table tbody tr {
+	border-bottom: 1px solid #f3cb53;
+}
+
+.content-table tbody tr:nth-of-type(even) {
+	background-color: #f0e1b5;
+}
+
+.konten-alur h1 {
+	position: absolute;
+	top: 53em;
+	left: 15em;
+	color: #fff;
+	font-size: 50px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 40px; /* 100% */
+	letter-spacing: 0.25px;
+	text-transform: capitalize;
+}
+
+.gambar-alur {
+	position: relative;
+	top: 62em;
+	left: ;
+}
+
+/* .box-img {
+	width: 250px;
+	height: 250px;
+	text-align: center;
+} */
