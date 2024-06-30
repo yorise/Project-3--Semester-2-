@@ -22,3 +22,281 @@ section.posisi .link a {
 }
 
 /* section posisi end  */
+
+/* section form start */
+
+section.form {
+  margin: 2rem 7rem;
+  background-color: rgba(243, 251, 242, 1);
+  padding: 1.5rem 0;
+}
+
+section.form h1 {
+  text-align: center;
+  color: var(--DarkGreen);
+  font-size: 2.3rem;
+  font-weight: 600;
+  line-height: 1.3; /* 75% */
+  letter-spacing: 0.2px;
+}
+
+section.form h1 span {
+  color: #22a879;
+  font-size: 1.2rem;
+  font-weight: 600;
+  line-height: 30px; /* 150% */
+  letter-spacing: 0.1px;
+  text-transform: capitalize;
+}
+
+section.form .step {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 4rem;
+}
+
+section.form .step div.step-1,
+section.form .step div.step-2 {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+section.form .step div.step-1 span.nomor {
+  color: var(--DarkGreen);
+  font-size: 2.8rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 50px; /* 100% */
+  letter-spacing: 0.25px;
+  text-transform: capitalize;
+  padding: 2rem 3rem;
+  border-radius: 50%;
+  box-sizing: border-box;
+  border: 1px solid var(--DarkGreen);
+}
+
+section.form .step div.step-2 span.nomor {
+  color: #eaf3e9;
+  background-color: var(--PastelGreen);
+  font-size: 2.8rem;
+  font-weight: 700;
+  line-height: 50px; /* 100% */
+  letter-spacing: 0.25px;
+  text-transform: capitalize;
+  padding: 2rem 3rem;
+  border-radius: 50%;
+  box-sizing: border-box;
+}
+
+section.form .step div.step-1 .detail span,
+section.form .step div.step-2 .detail span {
+  color: var(--DarkGreen);
+  font-size: 1.3rem;
+  font-weight: 600;
+  line-height: 30px; /* 150% */
+  letter-spacing: 0.1px;
+  text-transform: capitalize;
+}
+
+section.form .step div.step-1 .detail p,
+section.form .step div.step-2 .detail p {
+  color: var(--DarkGreen);
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 30px; /* 187.5% */
+  letter-spacing: 0.08px;
+  text-transform: capitalize;
+  width: 90%;
+}
+
+/* harga start */
+
+section.form .harga {
+  margin: 5rem 0;
+  text-align: center;
+}
+
+section.form .harga h2 {
+  position: relative;
+  color: var(--DarkGreen);
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 2.5; /* 93.75% */
+  letter-spacing: 0.16px;
+  text-transform: capitalize;
+}
+
+section.form .harga h2::after {
+  content: "";
+  position: absolute;
+  left: 50%; /* Sesuaikan untuk mengatur posisi awal dari garis */
+  transform: translateX(-50%);
+  bottom: -2px; /* Sesuaikan jarak antara tulisan dan garis bawah */
+  width: 25%; /* Sesuaikan panjang garis */
+  border-bottom: 1px solid var(--PastelGreen);
+}
+
+section.form .harga .hasil {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  margin: 2rem auto 4rem;
+  padding: 1rem 0;
+  border-radius: 1rem;
+  background: #e3eae4;
+  width: 60%;
+}
+
+section.form .harga .hasil p {
+  color: #57d38b;
+  font-size: 1.3rem;
+  font-style: normal;
+  font-weight: 500;
+  letter-spacing: 0.1px;
+  text-transform: capitalize;
+}
+
+section.form .harga p:nth-child(3) {
+  color: var(--DarkGreen);
+  font-size: 1.2rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 30px; /* 150% */
+  letter-spacing: 0.1px;
+  text-transform: capitalize;
+}
+
+section.form .harga span:nth-child(4) {
+  color: var(--DarkGreen);
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 30px; /* 115.385% */
+  letter-spacing: 0.13px;
+  text-transform: capitalize;
+}
+
+section.form .harga .paket {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 70%;
+  margin: 4rem auto;
+  background-color: rgba(230, 246, 228, 1);
+  padding: 4rem 0;
+}
+
+section.form .harga .paket .paket-basis,
+section.form .harga .paket .paket-premium {
+  flex: 50%;
+  margin-bottom: 5rem;
+}
+
+section.form .harga .paket .paket-basis p:nth-child(1) {
+  color: var(--DarkGreen);
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin-bottom: 5rem;
+  letter-spacing: 0.1px;
+  text-transform: capitalize;
+}
+
+section.form .harga .paket .paket-basis p:nth-child(1) span {
+  font-weight: 700;
+}
+
+section.form .harga .paket .paket-premium p:nth-child(1) {
+  color: var(--DarkGreen);
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin-bottom: 5rem;
+  letter-spacing: 0.1px;
+  text-transform: capitalize;
+}
+
+section.form .harga .paket .paket-premium p:nth-child(1) span {
+  font-weight: 700;
+}
+
+section.form .harga .paket .paket-basis p,
+section.form .harga .paket .paket-premium p {
+  color: #7b8883;
+  font-size: 1.3rem;
+  font-weight: 500;
+  line-height: 30px; /* 150% */
+  letter-spacing: 0.1px;
+  text-transform: capitalize;
+}
+
+section.form .harga .paket .paket-basis span:nth-child(3),
+section.form .harga .paket .paket-premium span:nth-child(3) {
+  color: #32bebe;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 3; /* 100% */
+  letter-spacing: 0.15px;
+  text-transform: capitalize;
+}
+
+section.form .harga .paket .perbandingan {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+section.form .harga .paket .perbandingan p {
+  color: #85b6ff;
+  font-size: 1.5rem;
+  font-weight: 500;
+  letter-spacing: 0.1px;
+  text-transform: capitalize;
+}
+
+section.form .harga .langganan h3 {
+  color: var(--DarkGreen);
+  font-size: 1.5rem;
+  font-weight: 600;
+  line-height: 30px; /* 150% */
+  letter-spacing: 0.1px;
+  text-transform: capitalize;
+}
+
+section.form .harga .langganan .tombol {
+  margin: 3rem auto;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+section.form .harga .langganan .tombol a {
+  width: 30%;
+  padding: 1.2rem;
+}
+
+section.form .harga .langganan .tombol a:nth-child(1) {
+  color: var(--DarkGreen);
+  font-size: 1.3rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  border-radius: 0.8rem;
+  border: 1px solid var(--Gradien-Green, #0a6646);
+}
+
+section.form .harga .langganan .tombol a:nth-child(2) {
+  color: #fff;
+  font-size: 1.3rem;
+  font-weight: 600;
+  line-height: normal;
+  border-radius: 0.8rem;
+  background: var(
+    --Gradien-Green,
+    linear-gradient(93deg, #0a6646 -15.17%, rgba(20, 204, 140, 0.8) 119.46%)
+  );
+}
+
+/* harga end */
+
+/* section form end */
