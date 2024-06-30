@@ -58,13 +58,19 @@
         </div>
         <div class="form">
           <h2>Form Estimasi Harga</h2>
-          <form action="./harga.html">
+          <form>
             <label for="">Area Layanan</label>
-            <input type="text" placeholder="Masukkan Area" required />
+            <input id="area" type="text" placeholder="Masukkan Area" required />
             <label for="">Industri</label>
-            <input type="text" placeholder="Masukkan Kategori" required />
+            <input
+              id="kategori"
+              type="text"
+              placeholder="Masukkan Kategori"
+              required
+            />
             <label for="">Luas Wilayah</label>
             <input
+              id="luas"
               type="number"
               placeholder="Masukkan Luas Wilayah (min 1000)"
               required
@@ -72,7 +78,7 @@
             <span>*Permeter</span>
             <div class="tombol">
               <button type="reset">Reset Form</button>
-              <button type="submit">Hitung</button>
+              <button id="hitung" type="submit">Hitung</button>
             </div>
           </form>
         </div>
@@ -129,5 +135,6 @@
         </ul>
       </div>
     </footer>
+    <script src="../JavaScript/proposal.js"></script>
   </body>
 </html>
