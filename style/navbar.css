@@ -5,31 +5,38 @@
  */
 
 nav {
-	position: fixed;
-	top: 0;
-	left: 0;
-	right: 0;
-	z-index: 100;
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
-	margin: 2rem 5rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 2rem 5rem;
+  transition: background-color 0.8s, padding 0.8s;
 }
 
 nav img {
-	margin-left: 2rem;
+  margin-left: 2rem;
 }
 
 nav .nav-list a {
-	text-decoration: none;
-	color: var(--DarkGreen);
-	margin: 0 4rem;
-	font-size: 1.2rem;
-	font-weight: 400;
+  text-decoration: none;
+  color: var(--DarkGreen);
+  margin: 0 4rem;
+  font-size: 1.2rem;
+  font-weight: 400;
 }
 
 nav .nav-list a.active {
-	font-weight: 600;
+  font-weight: 600;
+}
+
+nav.scrolled {
+  background-color: rgba(246, 233, 177, 0.905);
+  color: white;
+  padding: 1rem 2rem;
 }
 
 /* nav section end*/

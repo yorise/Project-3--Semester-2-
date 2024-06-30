@@ -127,6 +127,7 @@ section.form .form h2 {
 }
 
 section.form .form form {
+  position: relative;
   display: flex;
   flex-direction: column;
   width: 60%;
@@ -141,6 +142,14 @@ section.form .form form label {
   letter-spacing: 0.1px;
   text-transform: capitalize;
   margin-bottom: 0.5rem;
+}
+
+section.form .form form span.error {
+  position: absolute;
+  display: none;
+  right: 0;
+  bottom: 12%;
+  color: rgb(254, 119, 119);
 }
 
 section.form .form form input {

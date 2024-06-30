@@ -58,23 +58,29 @@
         </div>
         <div class="form">
           <h2>Form Estimasi Harga</h2>
-          <form>
+          <form id="form">
             <label for="">Area Layanan</label>
-            <input id="area" type="text" placeholder="Masukkan Area" required />
+            <input
+              id="area"
+              type="search"
+              placeholder="Masukkan Area"
+              required
+            />
             <label for="">Industri</label>
             <input
               id="kategori"
-              type="text"
+              type="search"
               placeholder="Masukkan Kategori"
               required
             />
-            <label for="">Luas Wilayah</label>
+            <label for="">Luas Wilayah </label>
             <input
               id="luas"
               type="number"
               placeholder="Masukkan Luas Wilayah (min 1000)"
               required
             />
+            <span class="error">* Minimal 1000</span>
             <span>*Permeter</span>
             <div class="tombol">
               <button type="reset">Reset Form</button>

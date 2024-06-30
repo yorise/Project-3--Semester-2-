@@ -1,30 +1,35 @@
 // script proposal page start
 
-const hitung = document.getElementById("hitung");
+const form = document.getElementById("form");
 
-hitung.addEventListener("click", (event) => {
+form.addEventListener("submit", (event) => {
   event.preventDefault(); // Mencegah pengiriman formulir default
 
   const luasWilayahInput = document.getElementById("luas");
-  const luasWilayah = parseFloat(luasWilayahInput.value); // Konversi ke angka
+  const luasWilayah = parseInt(luasWilayahInput.value); // Konversi ke angka
 
   const inputs = document.querySelectorAll("section.form .form input");
+  var error = document.querySelector("section.form .form form span.error");
 
   let isValid = true;
 
   // Memeriksa setiap input
   inputs.forEach((input) => {
-    if (input.value === "") {
-      isValid = false;
-    }
+    input.addEventListener("input", () => {
+      if (input.value === "") {
+        isValid = false;
+      }
+    });
   });
 
-  if (luasWilayah >= 1000 && isValid) {
-    // Simpan nilai luas wilayah di localStorage
-    localStorage.setItem("luasWilayah", luasWilayah);
-    window.location.href = "./harga.html";
+  if (luasWilayah >= 1000) {
+    if (isValid) {
+      // Simpan nilai luas wilayah di localStorage
+      localStorage.setItem("luasWilayah", luasWilayah);
+      window.location.href = "./harga.html";
+    }
   } else {
-    console.log("Minimal luas wilayah 1000 dan semua input harus diisi.");
+    error.style.display = "block";
   }
 });
 
