@@ -1,0 +1,153 @@
+body#lamar-kerja {
+  background-color: #f3cb53;
+  margin: 0;
+  padding: 0;
+}
+
+h2.h2 {
+  color: var(--text, #040316);
+  font-family: Poppins;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 70px; /* 175% */
+  letter-spacing: 0.2px;
+  text-transform: capitalize;
+  width: 50%;
+}
+
+h2.h2 span {
+  background: var(
+    --Gradien-Green,
+    linear-gradient(93deg, #0a6646 -15.17%, rgba(20, 204, 140, 0.8) 119.46%)
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: Poppins;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 70px;
+  letter-spacing: 0.2px;
+  text-transform: capitalize;
+}
+
+section#Header {
+  display: flex;
+  margin: 5rem 7rem 0;
+  align-items: center;
+  justify-content: space-around;
+}
+
+section#Content {
+  margin: 0 7rem 10rem;
+}
+
+button.button {
+  display: flex;
+  width: 260px;
+  height: 60px;
+  padding: 0px 20px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background: var(
+    --Gradien-Green,
+    linear-gradient(93deg, #0a6646 -15.17%, rgba(20, 204, 140, 0.8) 119.46%)
+  );
+  color: white;
+}
+
+h2.posisi {
+  color: var(--text, #040316);
+  font-family: Poppins;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 40px; /* 100% */
+  letter-spacing: 0.2px;
+  text-transform: capitalize;
+  text-align: center;
+}
+
+.office {
+  display: flex;
+  width: 1000px;
+  padding: 30px 40px;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 30px;
+  border-radius: 5px;
+  background: #eaf3e9;
+  margin: 2rem auto;
+}
+
+.office h2 {
+  color: var(--text, #040316);
+  font-family: Poppins;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px; /* 153.846% */
+  letter-spacing: 0.13px;
+  text-transform: capitalize;
+}
+
+.training {
+  display: flex;
+  width: 1000px;
+  padding: 30px 40px;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  border-radius: 5px;
+  background: #eaf3e9;
+  margin: 2rem auto;
+}
+
+.training h2 {
+  color: var(--text, #040316);
+  font-family: Poppins;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px; /* 153.846% */
+  letter-spacing: 0.13px;
+  text-transform: capitalize;
+}
+
+h3 {
+  color: #000;
+
+  font-family: Poppins;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 40px; /* 153.846% */
+  letter-spacing: 0.13px;
+  text-transform: capitalize;
+}
+
+ul,
+ol {
+  color: #000;
+
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px; /* 200% */
+  letter-spacing: 0.1px;
+  text-transform: capitalize;
+}
+
+section#Content ul {
+  list-style: disc;
+}
+
+section#Content ol {
+  list-style-type: number;
+}

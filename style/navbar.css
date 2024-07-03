@@ -34,7 +34,7 @@ nav .nav-list a.active {
 }
 
 nav.scrolled {
-  background-color: rgba(246, 233, 177, 0.905);
+  background-color: rgb(246, 233, 177);
   color: white;
   padding: 1rem 2rem;
 }
