@@ -31,7 +31,7 @@
           <a href="../index.html">Beranda ></a>
           <a href="./layanan.html">Layanan ></a>
           <a href="./layanan2.html">Gunakan Jasa ></a>
-          <a href="./proposal.html">Form Proposal</a>
+          <a href="./proposal.html">Form</a>
         </div>
         <img src="../assets/images/logo-bumi.png" alt="" />
       </section>
@@ -58,7 +58,7 @@
         </div>
         <div class="form">
           <h2>Form Estimasi Harga</h2>
-          <form id="form">
+          <form id="form" action="./harga.html">
             <label for="">Area Layanan</label>
             <input
               id="area"
@@ -77,10 +77,10 @@
             <input
               id="luas"
               type="number"
+              min="1000"
               placeholder="Masukkan Luas Wilayah (min 1000)"
               required
             />
-            <span class="error">* Minimal 1000</span>
             <span>*Permeter</span>
             <div class="tombol">
               <button type="reset">Reset Form</button>
@@ -141,7 +141,6 @@
         </ul>
       </div>
     </footer>
-    <script src="../JavaScript/proposal.js"></script>
     <script src="../JavaScript/navbar.js"></script>
   </body>
 </html>

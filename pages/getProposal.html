@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Concleanse | Dapatkan Proposal</title>
+
+    <!-- style -->
+    <link rel="stylesheet" href="../style/reset.css" />
+    <!-- navbar -->
+    <link rel="stylesheet" href="../style/navbar.css" />
+    <!-- navbar -->
+    <link rel="stylesheet" href="../style/style-page/getProposal.css" />
+    <link rel="stylesheet" href="../style/style.css" />
+    <link rel="stylesheet" href="../style/footer.css" />
+    <!-- style -->
+  </head>
+  <body>
+    <nav>
+      <img src="../assets/images/brand-logo.png" alt="logo" />
+      <div class="nav-list">
+        <a href="../index.html">BERANDA</a>
+        <a href="./layanan.html" class="active">LAYANAN</a>
+        <a href="./area.html">AREA</a>
+        <a href="./kontak.html">KONTAK</a>
+      </div>
+    </nav>
+    <main>
+      <section class="posisi">
+        <div class="link">
+          <a href="../index.html">Beranda ></a>
+          <a href="./layanan.html">Layanan ></a>
+          <a href="./layanan2.html">Gunakan Jasa ></a>
+          <a href="./proposal.html">Form ></a>
+          <a href="./harga.html">Harga Layanan ></a>
+          <a href="./getProposal.html">Dapatkan Proposal</a>
+        </div>
+        <img src="../assets/images/logo-bumi.png" alt="" />
+      </section>
+      <section class="form">
+        <h1>
+          <span>Berlangganan Jasa</span> <br />
+          Bersihkan Kawasan Wisata
+        </h1>
+        <div class="step">
+          <div class="step-1">
+            <span class="nomor">1</span>
+            <div class="detail">
+              <span>Dapatkan Estimasi Harga</span>
+              <p>Gunakan kalkulator untuk hitung tarif</p>
+            </div>
+          </div>
+          <div class="step-2">
+            <span class="nomor">2</span>
+            <div class="detail">
+              <span>Dapatkan Proposal</span>
+              <p>Isi form untuk mendapatkan proposal</p>
+            </div>
+          </div>
+        </div>
+        <div class="form">
+          <h2>Form Permintaan Proposal</h2>
+          <div class="hasil">
+            <img src="../assets/images/ceklis.png" alt="icon" />
+            <p>Hasil Estimasi Berdasarkan Kebutuhan Perusahaan Anda</p>
+          </div>
+          <form action="">
+            <label for="name">Nama Perusahaan</label>
+            <input type="text" placeholder="nama perusahaan" required />
+            <label for="area">Area Layanan</label>
+            <input type="text" placeholder="area/wilayah" required />
+            <label for="alamat">Alamat</label>
+            <input type="text" placeholder="alamat perusahaan" required />
+            <label for="namePIC">Nama PIC</label>
+            <input type="text" placeholder="nama pic" required />
+            <label for="telepon">Nomor Telepon</label>
+            <input type="number" placeholder="no. handphone" required />
+            <label for="email">Email PIC</label>
+            <input type="email" placeholder="email PIC" required />
+            <label for="industri">Bidang Kebutuhan</label>
+            <div class="radio-button">
+              <div class="radio-item">
+                <input type="radio" id="radio1" name="kategori" required />
+                <label for="radio1">Pengelolaan Kawasan Wisata</label>
+              </div>
+              <div class="radio-item">
+                <input type="radio" id="radio2" name="kategori" required />
+                <label for="radio2">Event Organizer</label>
+              </div>
+              <div class="radio-item">
+                <input type="radio" id="radio3" name="kategori" required />
+                <label for="radio3">Pemerintah Daerah</label>
+              </div>
+              <div class="radio-item">
+                <input type="radio" id="radio4" name="kategori" required />
+                <label for="radio4">Hotel dan Resort</label>
+              </div>
+              <div class="radio-item">
+                <input type="radio" id="radio5" name="kategori" required />
+                <label for="radio5">Komunitas Lokal</label>
+              </div>
+              <div class="radio-item">
+                <input type="radio" id="radio6" name="kategori" required />
+                <label for="radio6">Investor</label>
+              </div>
+              <div class="radio-item">
+                <input type="radio" id="radio7" name="kategori" required />
+                <label for="radio7">Developer</label>
+              </div>
+            </div>
+            <label for="wilayah">Pilih Paket</label>
+            <div class="radio-button">
+              <div class="radio-item">
+                <input type="radio" id="radio8" name="paket" required />
+                <label for="radio8">Paket Basis</label>
+              </div>
+              <sdiv class="radio-item">
+                <input type="radio" id="radio9" name="paket" required />
+                <label for="radio9">Paket Premium</label>
+              </sdiv>
+            </div>
+            <label for="layanan">Harga Layanan</label>
+            <input type="text" placeholder="harga layanan" readonly />
+            <div class="tombol">
+              <button type="reset">Reset</button>
+              <button type="submit">Submit</button>
+            </div>
+          </form>
+        </div>
+      </section>
+    </main>
+    <script src="../JavaScript/navbar.js"></script>
+  </body>
+</html>

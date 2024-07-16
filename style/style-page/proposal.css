@@ -124,6 +124,17 @@ section.form .form h2 {
   line-height: 30px; /* 93.75% */
   letter-spacing: 0.16px;
   text-transform: capitalize;
+  margin-bottom: 2.5rem;
+}
+
+section.form .form h2::after {
+  content: "";
+  position: absolute;
+  left: 50%; /* Sesuaikan untuk mengatur posisi awal dari garis */
+  transform: translateX(-50%);
+  bottom: 80px; /* Sesuaikan jarak antara tulisan dan garis bawah */
+  width: 25%; /* Sesuaikan panjang garis */
+  border-bottom: 1px solid var(--PastelGreen);
 }
 
 section.form .form form {
@@ -142,14 +153,6 @@ section.form .form form label {
   letter-spacing: 0.1px;
   text-transform: capitalize;
   margin-bottom: 0.5rem;
-}
-
-section.form .form form span.error {
-  position: absolute;
-  display: none;
-  right: 0;
-  bottom: 12%;
-  color: rgb(254, 119, 119);
 }
 
 section.form .form form input {

@@ -14,7 +14,7 @@ nav {
   align-items: center;
   justify-content: space-between;
   margin: 2rem 5rem;
-  transition: background-color 0.8s, padding 0.8s;
+  transition: background-color 0.8s, padding 0.8s, border-radius 0.8s;
 }
 
 nav img {
@@ -35,8 +35,12 @@ nav .nav-list a.active {
 
 nav.scrolled {
   background-color: rgb(246, 233, 177);
-  color: white;
   padding: 1rem 2rem;
+  border-radius: 3rem;
+}
+
+nav.scrolled .nav-list a {
+  color: var(--DarkGreen);
 }
 
 /* nav section end*/
